@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	background-image: url(/images/earth.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3rem;
+}
+
+h1,
+h2 {
+	color: #f1f1f1;
+}
+
+li {
+	margin: 0;
+	list-style: none;
+}
+
+.select-container {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #f1f1f1;
+	padding: 1rem;
+	width: 30rem;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 0.5rem;
+}
+
+.launch-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+iframe {
+	width: fit-content;
+	height: fit-content;
+}
